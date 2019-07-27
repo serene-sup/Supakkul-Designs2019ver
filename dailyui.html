@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Serene Designs</title>
+    <link rel= "stylesheet" type= "text/css" href= "work.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+</head>
+    
+<body>
+    
+    <header>
+        
+        <div class="row">
+            <img src="images/logo.png" class="logo" alt="logo">
+        <ul class= "main-nav">
+            <li > <a href="index.html">WORK</a></li>
+            <li class="left-nav"> <a href="about.html">ABOUT</a></li>
+            <li class="left-nav"> <a href="#">RESUME</a></li>
+        
+        </ul>
+        </div>
+        
+    
+    
+    </header>
+
+    
+    
+    <h1 class= DUI>
+        Daily UI Design Challenge
+    
+    </h1>
+    <h2 class=DUI-desc>
+        Receive new and unique user interface design prompt everyday, then interpret and create original designs.
+
+    
+    </h2>
+    
+    <ul class= "DUI-work1">
+            <li class="DUI-1"> <a href="#">
+                <div class="container-dui"><img src= images/1.png alt= "picture of credit card checkout" class= "d-img">
+                <div class="overlay-d">
+                    <div class="text-dui">Credit Card Checkout</div>
+                    </div>
+                     
+                    </div>
+                
+                </a></li>
+        <li class="DUI-1"> <a href="#">
+                <div class="container-dui"><img src= images/2.png alt= "picture of contact page" class= "d-img">
+                <div class="overlay-d">
+                    <div class="text-dui">Contact Page</div>
+                    </div>
+                     
+                    </div>
+                
+                </a></li>
+            
+         <li class="DUI-1"> <a href="#">
+                <div class="container-dui"><img src= images/3.png alt= "picture of landing page" class= "d-img">
+                <div class="overlay-d">
+                    <div class="text-dui">Landing Page</div>
+                    </div>
+                     
+                    </div>
+                
+                </a></li>
+            
+        
+        </ul>
+    
+     <ul class= "DUI-work2">
+            <li class="DUI-1"> <a href="#">
+                <div class="container-dui"><img src= images/4.png alt= "picture of user profile" class= "d-img">
+                <div class="overlay-d">
+                    <div class="text-dui">User Profile</div>
+                    </div>
+                     
+                    </div>
+                
+                </a></li>
+        <li class="DUI-1"> <a href="#">
+                <div class="container-dui"><img src= images/5.png alt= "picture of sign up page" class= "d-img">
+                <div class="overlay-d">
+                    <div class="text-dui">Sign-up Page</div>
+                    </div>
+                     
+                    </div>
+                
+                </a></li>
+            
+         <li class="DUI-1"> <a href="#">
+                <div class="container-dui">
+                    <img src= images/6.png alt= "picture of calculator" class= "d-img">
+                    <div class="overlay-d show">
+                        <div class="text-dui">Calculator App</div>
+                    </div>
+                     
+                    </div>
+                
+                </a></li>
+            
+        
+        </ul>
+    
+    
+    
+</body>
+    
+    
+    
+    
+</html>
+
+<script>
+    $(".container-dui").on('click',function(){
+    $(this).children(".overlay-d").toggleClass("show");
+        console.log("Clicked me");
+});
+    
+    </script>
