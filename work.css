@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,500,600,700,800&display=swap');
 }
 body{
     width: 1920px;
