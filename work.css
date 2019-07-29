@@ -8,6 +8,7 @@
 body{
     width: 1920px;
     padding-bottom: 300px;
+    zoom: 75%;
 }
 
 /*------SEOULA CASE STUDY ---*/
@@ -54,8 +55,7 @@ p {
     margin-left: 21%;
     line-height: 35px;
     margin-top:15px;
-     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+    
 }
 
 h3{
