@@ -4,7 +4,7 @@
     box-sizing: border-box;
    
 }
- @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,500,600,700,800&display=swap');
+ 
 body{
     width: 1920px;
 }
@@ -33,25 +33,27 @@ body{
 h1{
     margin-left: 852px;
     margin-top: -710px;
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat';
     font-size: 24pt;
     color: #7172E3;
+    font-weight:700;
     
 }
 
 p{
     margin-left: 852px;
     color: #212121;
-    font-family: Montserrat-Light;
+    font-family: 'Montserrat';
     font-size: 18pt;
     width: 900px;
     line-height: 46px;
     margin-top: 20px;
+    font-weight: 300;
 }
 
 .in-text{
     color: #7172E3;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     
     
 }
@@ -62,7 +64,8 @@ hr{
 .tech-skills{
     margin-top: 40px;
     margin-left: 410.75px;
-    font-family: Montserrat-Medium;
+    font-family: 'Montserrat';
+    font-weight:500;
 }
 .tech-list{
     margin-left: 410.75px;
@@ -71,9 +74,10 @@ hr{
 .soft-skills{
     margin-top: 80px;
     margin-left: 1234.25px;
-    font-family: Montserrat-Medium;
+    font-family: 'Montserrat';
     padding: none;
     margin-top: -508px;
+    font-weight:500;
 }
 
 .soft-list{
@@ -82,14 +86,16 @@ hr{
 
 .chat{
     margin-top: 100px;
-    font-family: Montserrat-Medium;
+    font-family: "Montserrat";
     margin-bottom: 20px;
+    font-weight:500;
 }
 
 .contact-links{
-    font-family:Montserrat-Light;
+    font-family:'Montserrat';
     font-size: 18pt;
     position:relative;
+    font-weight:300;
     
     list-style: none;
     margin-top: 40px;
@@ -137,11 +143,12 @@ hr{
 
 
 .main-nav li{
-    font-family: Montserrat-Regular;
+    font-family: 'Montserrat';
     display: inline-block;
     font-size: 18px;
     text-align: left;
     margin-left: 20px;
+    font-weight:400;
     
 }
 
