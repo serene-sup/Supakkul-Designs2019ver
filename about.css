@@ -67,16 +67,17 @@ hr{
     font-family: 'Montserrat';
     font-weight:500;
 }
+
 .tech-list{
     margin-left: 410.75px;
 }
 
 .soft-skills{
-    margin-top: 80px;
+    
     margin-left: 1234.25px;
     font-family: 'Montserrat';
     padding: none;
-    margin-top: -508px;
+    margin-top: -505px;
     font-weight:500;
 }
 
@@ -129,6 +130,13 @@ hr{
     text-decoration: none;
 }
 
+
+.skills li{
+    display: inline-block;
+}
+.row-skills li{
+    display: inline-block;
+}
 
 /*----HEADER----*/
 

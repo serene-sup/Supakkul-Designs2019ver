@@ -41,6 +41,7 @@ body{
     margin-left: 21%;
     margin-top: 70px;
     font-size: 32px;
+    font-weight: 700;
     
      -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -53,6 +54,8 @@ p {
     margin-left: 21%;
     line-height: 35px;
     margin-top:15px;
+     -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 h3{
