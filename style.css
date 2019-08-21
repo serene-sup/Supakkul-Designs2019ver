@@ -651,6 +651,7 @@ div.overlay{
     z-index: -5;
     margin-top: 0;
     border: none;
+    min-width: 1366px;
 }
 
 .nav{
