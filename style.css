@@ -28,7 +28,8 @@ div.overlay-dui{
     z-index: -5;
     margin-top: 0;
     border: none;
-    
+    min-width: 1366px;
+    min-height: 789px;
     
 }
 
@@ -145,6 +146,8 @@ div.overlay-graphics{
     z-index: -5;
     margin-top: 0;
     border: none;
+    min-width: 1366px;
+    min-height: 789px;
     
     
 }
@@ -195,6 +198,8 @@ div.overlay-b{
     z-index: -5;
     margin-top: 0;
     border: none;
+    min-width: 1366px;
+    min-height: 789px;
 }
 h1.seoula{
     color: #FFF;
@@ -252,6 +257,8 @@ div.overlay-s{
     z-index: -5;
     margin-top: 0;
     border: none;
+    min-width: 1366px;
+    min-height: 789px;
 }
 
 h1.seoula{
