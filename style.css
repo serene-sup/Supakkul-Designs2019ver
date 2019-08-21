@@ -389,7 +389,7 @@ p.about{
     
     margin-top: 1%;
     line-height: 30px;
-    font-size: 14pt;
+    font-size: 12pt;
     word-spacing: 1px;
 }
 
@@ -663,7 +663,8 @@ div.overlay{
     margin-right: 10%;
 }
 .main-nav-left li,
-.main-nav-right li {
+.main-nav-right li,
+.main-nav-right-home li {
     display: inline-block;
 }
 
@@ -674,6 +675,11 @@ div.overlay{
 }
 
 .main-nav-right li{
+    float: right;
+    margin-left: 4%;
+    margin-top: 3.3%;
+}
+.main-nav-right-home li{
     float: right;
     margin-left: 4%;
     margin-top: 5%;
@@ -693,10 +699,20 @@ div.overlay{
     font-size: 12pt;
     padding: 5px 0px;
 }
+.main-nav-right-home a:link,
+.main-nav-right-home a:visited{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12pt;
+    padding: 5px 0px;
+}
 .main-nav-left a:hover,
 .main-nav-right a:hover,
+.main-nav-right-home a:hover,
 .main-nav-left a:active,
-.main-nav-right a:active{
+.main-nav-right a:active,
+.main-nav-right-home a:active{
     
     border-bottom: 3px solid #9C93FF;
     border-radius: 0px;
