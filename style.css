@@ -652,6 +652,7 @@ div.overlay{
     margin-top: 0;
     border: none;
     min-width: 1366px;
+    min-height: 1086px;
 }
 
 .nav{
