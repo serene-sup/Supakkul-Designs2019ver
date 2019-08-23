@@ -28,7 +28,7 @@ div.overlay-dui{
     z-index: -5;
     margin-top: 0;
     border: none;
-    min-width: 1366px;
+    min-width: 1440px;
     min-height: 789px;
     
 }
@@ -146,7 +146,7 @@ div.overlay-graphics{
     z-index: -5;
     margin-top: 0;
     border: none;
-    min-width: 1366px;
+    min-width: 1440px;
     min-height: 789px;
     
     
@@ -198,7 +198,7 @@ div.overlay-b{
     z-index: -5;
     margin-top: 0;
     border: none;
-    min-width: 1366px;
+    min-width: 1440px;
     min-height: 789px;
 }
 h1.seoula{
@@ -257,7 +257,7 @@ div.overlay-s{
     z-index: -5;
     margin-top: 0;
     border: none;
-    min-width: 1366px;
+    min-width: 1440px;
     min-height: 789px;
 }
 
@@ -376,7 +376,9 @@ h3.seoula{
 div.about{
     background-color: #FFF;
     width: 80%;
+    min-width: 1152px;
     height: 70%;
+    min-height: 552px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
@@ -658,7 +660,7 @@ div.overlay{
     z-index: -5;
     margin-top: 0;
     border: none;
-    min-width: 1366px;
+    min-width: 1440px;
     min-height: 789px;
 }
 
