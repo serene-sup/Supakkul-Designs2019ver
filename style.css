@@ -400,8 +400,9 @@ p.about{
     
     margin-top: 1%;
     line-height: 30px;
-    font-size: 10pt;
+    font-size: 12pt;
     word-spacing: 1px;
+    overflow: scroll;
 }
 
 p.about .in-text{
