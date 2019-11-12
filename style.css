@@ -435,16 +435,16 @@ h1.about{
     font-family: "Montserrat";
     font-weight: 500;
     color: #9C93FF;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 3%;
-    font-size: 28pt;
+    font-size: 20pt;
 }
 h2.about{
     margin-left: 3%;
     font-weight: 400;
     margin-top: 1%;
     line-height: 30px;
-    font-size: 12pt;
+    font-size: 11.5pt;
     word-spacing: 1px;
     overflow: scroll;
 }
