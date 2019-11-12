@@ -11,6 +11,8 @@ body{
     zoom: 75%;
 }
 
+
+
 /*------SEOULA CASE STUDY ---*/
 .seoula-head{
     text-align: center;
@@ -110,7 +112,8 @@ h3{
     margin-top: 50px;
 }
 
-/*------DUI PAGE ---*/
+/*
+------DUI PAGE ---
 
 .DUI{
     text-align: center;
@@ -206,6 +209,7 @@ h3{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
+*/
 
 
 /*------WORK PAGE ---*/
