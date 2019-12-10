@@ -261,10 +261,20 @@ img.bro-display{
     min-width: 1440px;
     min-height: 789px;
 }
+
+img.tri-display{
+    width: 31%;
+    float: left;
+    margin-left: 34.5%;
+    margin-top: 3%;
+    object-position: 75%;
+    transform: scale(1);
+    overflow: auto;
+}
 h2.t-h2{
     color:inherit;
     font-weight: 700;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 2%;
     margin-left: 21%;
     
