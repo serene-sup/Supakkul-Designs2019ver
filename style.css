@@ -246,6 +246,56 @@ img.bro-display{
     margin-right: 50px;
 }
 
+/*------TRIET CASE STUDY ---*/
+.overlay-tri{
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/triet-portscreen.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    z-index: -5;
+    margin-top: 0;
+    border: none;
+    min-width: 1440px;
+    min-height: 789px;
+}
+h2.t-h2{
+    color:inherit;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 21%;
+    
+    
+}
+
+.triet-pers{
+    margin-left: 21%;
+    width: 60%;
+    margin-top: -1%;
+    margin-bottom: 0%;
+}
+.triet-screens{
+    margin-left: 21%;
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.triet-screensL{
+    margin-left: 21%;
+    width: 60%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.triet-screensS{
+    margin-left: 21%;
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
 /*------STUDYSMART CASE STUDY ---*/
 .overlay-dev{
     width: 100%;
