@@ -246,6 +246,65 @@ img.bro-display{
     margin-right: 50px;
 }
 
+/*------GOOGLE 2020 PAGE ---*/
+.overlay-goog{
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/mentee-cover.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    z-index: -5;
+    margin-top: 0;
+    border: none;
+    min-width: 1440px;
+    min-height: 789px;
+}
+h1.goog{
+    
+    
+    color: #FFF;
+    font-family: "Montserrat";
+    font-weight: 600;
+    float:left;
+    margin-top: 10%;
+    word-spacing: 2px;
+    font-size: 48pt;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.arrow-goog{
+    color: #FFF;
+    font-size: 70px;
+    opacity: .35;
+    margin-top: 45%;
+    margin-left:47.5%;
+    margin-right: 48%;
+}
+
+button.goog{
+    font-family: "Montserrat";
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 20%;
+    height: 8%;
+    background-color: #ff595b;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+button.goog:hover {
+  background-color: #b44e50;
+  color: white;
+}
 /*------TRIET CASE STUDY ---*/
 .overlay-tri{
     width: 100%;
@@ -614,7 +673,7 @@ p.soft-skills{
 
 h1.land{
     color: #FFF;
-    margin-top: 60px;
+    margin-top: 50px;
     font-weight: 300;
     font-size: 64pt;
     letter-spacing: 2px;
@@ -633,7 +692,7 @@ h1.land{
 .logo{
     width: 180px;
     height:auto;
-    margin-top: 10%;
+    margin-top: 9%;
     margin-left: 30%;
 }
 h2.land{
@@ -671,7 +730,7 @@ p span.in-text{
     color: #FFF;
     font-size: 70px;
     opacity: .35;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left:48%;
     margin-right: 48%;
 }
@@ -695,7 +754,12 @@ p span.in-text{
     margin-top: 10px;
     margin-bottom: 200px;
 }
-
+.work-mid{
+    margin-left: 13.8%;
+    margin-right: auto;
+    margin-top: 10px;
+   
+}
 .work1 li{
     display: inline-block;
     margin: 10px;
@@ -707,7 +771,11 @@ p span.in-text{
     margin: 10px;
     text-align: center;
 }
-
+.work-mid li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
 .w-img{
     width: 500px;
     height: 500px;
